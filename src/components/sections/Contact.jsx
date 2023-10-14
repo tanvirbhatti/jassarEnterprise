@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section className="ftco-intro bg-primary py-5">
+    <section className="ftco-intro bg-primary py-5 mt-3">
 		<div className="container">
 			<div className="row justify-content-between align-items-center">
 				<div className="col-md-6">

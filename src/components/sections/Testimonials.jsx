@@ -24,7 +24,7 @@ const Testimonials = () => {
                                <Testimonialcard/>
                                <Testimonialcard/>
                                <Testimonialcard/>
-                               <Testimonialcard/>Í
+                               <Testimonialcard/>
                         </OwlCarousel>
                         {/* </div> */}
                     </div>
