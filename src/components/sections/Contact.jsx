@@ -13,7 +13,7 @@ const Contact = () => {
 					</p>
 				</div>
 				<div className="col-md-5 text-md-right">
-					<span className="contact-number">+00(123) 456-78-09</span>
+					<span className="contact-number">+1(778)-929-8020</span>
 				</div>
 			</div>
 		</div>

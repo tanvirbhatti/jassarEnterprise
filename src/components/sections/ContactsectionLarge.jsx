@@ -14,7 +14,7 @@ const ContactsectionLarge = () => {
                       <span className="fa fa-map-marker"></span>
                     </div>
                     <div className="text">
-                      <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+                      <p><span>Address:</span> Surrey, BC</p>
                     </div>
                   </div>
                 </div>
@@ -24,7 +24,7 @@ const ContactsectionLarge = () => {
                       <span className="fa fa-phone"></span>
                     </div>
                     <div className="text">
-                      <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+                      <p><span>Phone:</span> <a href="tel://7789298020">+1(778)-929-8020</a></p>
                     </div>
                   </div>
                 </div>
@@ -34,7 +34,9 @@ const ContactsectionLarge = () => {
                       <span className="fa fa-paper-plane"></span>
                     </div>
                     <div className="text">
-                      <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+                      <p><span>Email:</span> <a href="mailto:info@jassarlandscaping.ca
+">info@jassarlandscaping.ca
+</a></p>
                     </div>
                   </div>
                 </div>
@@ -44,7 +46,7 @@ const ContactsectionLarge = () => {
                       <span className="fa fa-globe"></span>
                     </div>
                     <div className="text">
-                      <p><span>Website</span> <a href="#">yoursite.com</a></p>
+                      <p><span>Website</span> <a href="https://www.jassarlandscaping.ca/">jassarlandscaping.ca</a></p>
                     </div>
                   </div>
                 </div>

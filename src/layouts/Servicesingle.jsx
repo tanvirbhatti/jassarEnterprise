@@ -17,7 +17,7 @@ const Servicesingle = () => {
 
   return (
     <>
-        <Herosection2 title={service.title || "Service not found"}/>
+        <Herosection2 title={service.title || "Service not found"} backgroundImage={service.backgroundImage}/>
         <SingleServiceSection id={id}/>
         <Contact/>
     </>

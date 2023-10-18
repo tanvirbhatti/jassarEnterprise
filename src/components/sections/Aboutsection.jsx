@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Aboutsection = () => {
   const imgStyle = {
-    backgroundImage: 'url(images/about.jpg)',
+    backgroundImage: 'url(images/jassarAbout.jpeg)',
     borderRadius: '30px',
   };
 

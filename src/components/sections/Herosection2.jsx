@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Herosection2 = ({ title }) => {
+const Herosection2 = ({ title, backgroundImage = 'bg_2.jpg' }) => {
   return (
-    <section className="hero-wrap hero-wrap-2 mb-5 " style={{ backgroundImage: "url(../images/bg_2.jpg)" }} data-stellar-background-ratio="0.5">
-      <div className="overlay "></div>
+    <section className="hero-wrap hero-wrap-2 mb-5" style={{ backgroundImage: `url(../images/${backgroundImage})` }} data-stellar-background-ratio="0.5">
+      <div className="overlay"></div>
       <div className="container animate__animated animate__fadeInUp">
         <div className="row no-gutters slider-text align-items-end justify-content-center">
           <div className="col-md-9 pb-5 text-center">

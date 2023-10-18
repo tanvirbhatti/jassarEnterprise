@@ -30,26 +30,15 @@ const Footer = () => {
 							<h2 className="ftco-heading-2">Services</h2>
 							<ul className="list-unstyled">
 								<li>
-									<a href="#" className="py-1 d-block"><span className="ion-ios-arrow-forward mr-3"></span>Garden
-										Care</a>
+									<Link to="singleservice/1" className="py-1 d-block"><span className="ion-ios-arrow-forward mr-3"></span>Snow removal</Link>
 								</li>
 								<li>
-									<a href="#" className="py-1 d-block"><span className="ion-ios-arrow-forward mr-3"></span>Lawn
-										mowing</a>
+									<Link to="singleservice/2" className="py-1 d-block"><span className="ion-ios-arrow-forward mr-3"></span>Landscaping</Link>
 								</li>
 								<li>
-									<a href="#" className="py-1 d-block"><span className="ion-ios-arrow-forward mr-3"></span>Lawn
-										Care</a>
+									<Link to="singleservice/3" className="py-1 d-block"><span className="ion-ios-arrow-forward mr-3"></span>Construction</Link>
 								</li>
-								<li>
-									<a href="#" className="py-1 d-block"><span className="ion-ios-arrow-forward mr-3"></span>Gutter
-										Cleaning</a>
-								</li>
-								<li>
-									<a href="#" className="py-1 d-block"><span className="ion-ios-arrow-forward mr-3"></span>New
-										Lawn
-										Installation</a>
-								</li>
+								
 							</ul>
 						</div>
 					</div>

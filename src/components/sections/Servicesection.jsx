@@ -1,5 +1,6 @@
 import React from 'react';
 import Servicecard from '../cards/Servicecard';
+import { Link } from 'react-router-dom';
 
 const Servicesection = () => {
   const servicesData = [
@@ -37,7 +38,7 @@ const Servicesection = () => {
 
               </p>
               <p>
-                <a href="#" className="btn btn-primary py-3 px-4">Get a Quote</a>
+                <Link to="/contact" className="btn btn-primary py-3 px-4">Get a Quote</Link>
               </p>
             </div>
           </div>

@@ -10,7 +10,7 @@ import AboutSection2 from '../components/sections/AboutSection2';
 const Aboutpage = () => {
   return (
     <>
-      <Herosection2 title={"About us"} />
+      <Herosection2 title={"About us"} backgroundImage={"aboutbg.jpeg"}/>
       <Aboutsection />
       <AboutSection2/>
       <TeamSection/>
