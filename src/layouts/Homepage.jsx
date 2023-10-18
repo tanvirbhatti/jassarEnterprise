@@ -1,14 +1,14 @@
 import React from 'react'
-import Navbar from '../components/static/navbar'
 import Herosection from '../components/sections/Herosection'
 import Servicesection from '../components/sections/Servicesection'
 import Aboutsection from '../components/sections/Aboutsection'
-import Tipssection from '../components/sections/Tipssection'
-import Footer from '../components/static/footer'
+import TeamSection from '../components/sections/TeamSection'
 import Contact from '../components/sections/Contact'
 import Testimonials from '../components/sections/Testimonials'
 import Blogsection from '../components/sections/Blogsection'
 import Newslettersection from '../components/sections/Newslettersection'
+import { Map } from '../components/sections/Map'
+import ClientsSection from '../components/sections/ClientsSection'
 
 const Homepage = () => {
   return (
@@ -17,10 +17,12 @@ const Homepage = () => {
       <Herosection />
       <Servicesection/>
       <Aboutsection/>
-      {/* <Tipssection/> */}
-      <Testimonials/>
-      <Contact/>
+      {/* <TeamSection/> */}
+      <Testimonials />
+      <ClientsSection/>
       <Blogsection/>
+      <Contact/>
+      <Map/>
       <Newslettersection/>
       
     </>

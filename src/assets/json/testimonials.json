@@ -1,0 +1,38 @@
+[
+    {
+        "name":"Manvir bhatii",
+        "position":"House owner",
+        "review":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+        "image":"person_1.jpg"
+    },
+    {
+        "name":"Tanivr bhatii",
+        "position":"House owner",
+        "review":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+        "image":"person_2.jpg"
+    },
+    {
+        "name":"Jassar",
+        "position":"House owner",
+        "review":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+        "image":"person_3.jpg"
+    },
+    {
+        "name":"Gurveer",
+        "position":"House owner",
+        "review":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+        "image":"person_4.jpg"
+    },
+    {
+        "name":"Jagga",
+        "position":"House owner",
+        "review":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+        "image":"person_5.jpg"
+    },  
+    {
+        "name":"Gurjeevan",
+        "position":"House owner",
+        "review":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+        "image":"person_6.jpg"
+    }
+]

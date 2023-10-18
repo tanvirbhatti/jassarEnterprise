@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../components/static/navbar'
+import Navbar from '../components/static/Navbar'
 import Homepage from './Homepage'
-import Footer from '../components/static/footer'
+import Footer from '../components/static/Footer'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Aboutpage from './Aboutpage'
 import Blogpage from './Blogpage'
@@ -9,6 +9,8 @@ import Contactpage from './Contactpage'
 import Servicespage from './Servicespage'
 import Gallerypage from './Gallerypage'
 import Blogsingle from './Blogsingle'
+import SingleServiceSection from '../components/sections/SingleServiceSection'
+import Servicesingle from './Servicesingle'
 
 const Layout = () => {
   return (
@@ -22,6 +24,7 @@ const Layout = () => {
         <Route path='/gallery' Component={Gallerypage} />
         <Route path='/services' Component={Servicespage} />
         <Route path='/blogsingle' Component={Blogsingle} />
+        <Route path='/singleservice/:id' Component={Servicesingle} />
       </Routes>
       <Footer />
     </BrowserRouter>

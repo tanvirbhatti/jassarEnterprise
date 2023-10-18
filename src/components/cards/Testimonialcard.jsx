@@ -1,26 +1,22 @@
-import React from 'react'
-
-const Testimonialcard = () => {
+const Testimonialcard = ({ data }) => {
     return (
         <div className="item">
             <div className="testimony-wrap py-4">
                 <div className="text">
                     <p className="mb-4">
-                        Far far away, behind the word mountains, far from the
-                        countries Vokalia and Consonantia, there live the blind
-                        texts.
+                        {data.review}
                     </p>
                     <div className="d-flex align-items-center">
-                        <div className="user-img" style={{ backgroundImage: 'url(images/person_1.jpg)' }}></div>
+                        <div className="user-img" style={{ backgroundImage: `url(images/${data.image})` }}></div>
                         <div className="pl-3">
-                            <p className="name">Roger Scott</p>
-                            <span className="position">Marketing Manager</span>
+                            <p className="name">{data.name}</p>
+                            <span className="position">{data.position}</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Testimonialcard

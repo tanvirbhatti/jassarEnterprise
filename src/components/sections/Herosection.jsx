@@ -20,6 +20,8 @@ const Herosection = () => {
         backgroundPosition: 'center center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
+        height: '80vh', // Increased height for the image
+        perspective: '1000px', // Add a 3D effect by defining perspective
     };
 
     const slides = [
@@ -62,14 +64,13 @@ const Herosection = () => {
     ];
 
     return (
-        <OwlCarousel className="owl-theme hero-carousel" {...options}>
+        <OwlCarousel className="" {...options}>
             {slides.map((slide, index) => (
-                <div key={index} className="item hero-wrap hero-wrap-2" style={{ ...commonStyles, backgroundImage: `url(${slide.backgroundImage})` }}>
-                    <div className="dark-overlay"></div>
-                    <div className="container">
-                        <div className="row no-gutters slider-text justify-content-start">
-                            <div className="col-md-6 d-flex align-items-center">
-                                <div>
+                <div key={index} className="item d-flex align-align-items-center justify-content-center " style={{ ...commonStyles, backgroundImage: `url(${slide.backgroundImage})` }}>
+                    <div className='dark-overlay'></div>
+                    <div className="container d-flex align-align-items-center justify-content-start">
+                        <div className="row no-gutters slider-text justify-content-start align-items-center ">
+                            <div className="col-md-8 d-flex flex-column justify-content-start  align-items-start">
                                     <h2 className="subheading animate__animated animate__fadeInUp">
                                         {slide.text.subheading}
                                     </h2>
@@ -84,7 +85,6 @@ const Herosection = () => {
                                             {slide.text.button.text} <span className="ion-ios-arrow-forward"></span>
                                         </a>
                                     </p>
-                                </div>
                             </div>
                         </div>
                     </div>

@@ -67,7 +67,9 @@ body {
 .navLogo{
   width: 150px;
 }
-
+.footerLogo{
+  width: 280px;
+}
 
 hr {
   -webkit-box-sizing: content-box;
