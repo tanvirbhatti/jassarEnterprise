@@ -1,5 +1,5 @@
 import React from 'react';
-import Gallerycard from '../cards/gallerycard';
+import Gallerycard from '../cards/Gallerycard';
 
 const Gallerysection = () => {
   return (
