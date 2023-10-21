@@ -14,13 +14,13 @@ const Footer = () => {
 							
 							<ul className="ftco-footer-social list-unstyled float-md-left w-100 justify-content-center  d-flex  float-lft mt-1">
 								<li className="">
-									<a href="#"><span className="icon-twitter"></span></a>
+									<a href="#"><span className="fa-brands fa-facebook"></span></a>
 								</li>
 								<li className="">
-									<a href="#"><span className="icon-facebook"></span></a>
+									<a href="#"><span className="fa-brands fa-instagram"></span></a>
 								</li>
 								<li className="">
-									<a href="#"><span className="icon-instagram"></span></a>
+									<a href="#"><span className="fa-brands fa-twitter"></span></a>
 								</li>
 							</ul>
 						</div>
@@ -30,13 +30,13 @@ const Footer = () => {
 							<h2 className="ftco-heading-2">Services</h2>
 							<ul className="list-unstyled">
 								<li>
-									<Link to="singleservice/1" className="py-1 d-block"><span className="ion-ios-arrow-forward mr-3"></span>Snow removal</Link>
+									<Link to="singleservice/1" className="py-1 d-block"><span className="fa-solid fa-snowplow mr-3"></span>Snow removal</Link>
 								</li>
 								<li>
-									<Link to="singleservice/2" className="py-1 d-block"><span className="ion-ios-arrow-forward mr-3"></span>Landscaping</Link>
+									<Link to="singleservice/2" className="py-1 d-block"><span className="flaticon-fence mr-3"></span>Landscaping</Link>
 								</li>
 								<li>
-									<Link to="singleservice/3" className="py-1 d-block"><span className="ion-ios-arrow-forward mr-3"></span>Construction</Link>
+									<Link to="singleservice/3" className="py-1 d-block"><span className="fa-solid fa-truck-pickup mr-3"></span>Construction</Link>
 								</li>
 								
 							</ul>
@@ -48,13 +48,13 @@ const Footer = () => {
 							<div className="block-23 mb-3">
 								<ul>
 									<li>
-										<span className="icon icon-map-marker"></span><span className="text ">Surrey, BC</span>
+										<span className="icon fa fa-location-dot"></span><span className="text ">Surrey, BC</span>
 									</li>
 									<li>
-										<a href="#"><span className="icon icon-phone"></span><span className="text">+1(778)-929-8020</span></a>
+										<a href="#"><span className="icon fa fa-phone"></span><span className="text">+1(778)-929-8020</span></a>
 									</li>
 									<li>
-										<a href="#"><span className="icon icon-envelope"></span><span
+										<a href="#"><span className="icon fa fa-paper-plane"></span><span
 											className="text">info@jassarlandscaping.ca</span></a>
 									</li>
 								</ul>

@@ -13,7 +13,7 @@ const Servicecard = ({ icon, title, tagline,id }) => {
           <p>{tagline}</p>
         </div>
         <Link to={`singleservice/${id}`} className="btn-custom d-flex align-items-center justify-content-center">
-          <span className="ion-ios-arrow-round-forward"></span>
+          <span className="fa-solid fa-arrow-right"></span>
         </Link>
       </div>
     </div>
