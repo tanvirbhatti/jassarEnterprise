@@ -1,4 +1,4 @@
-import $ from 'jquery';
+import jQuery from 'jquery';
 
 (function($) {
 
@@ -15,15 +15,6 @@ import $ from 'jquery';
   });
 
 
-	var fullHeight = function() {
-
-		$('.js-fullheight').css('height', $(window).height());
-		$(window).resize(function(){
-			$('.js-fullheight').css('height', $(window).height());
-		});
-
-	};
-	fullHeight();
 
 	// loader
 	var loader = function() {
@@ -35,10 +26,7 @@ import $ from 'jquery';
 	};
 	loader();
 
-	// Scrollax
-   $.Scrollax();
 
-	// var carousel = function() {
 	// 	$('.carousel-testimony').owlCarousel({
 	// 		center: true,
 	// 		loop: true,
