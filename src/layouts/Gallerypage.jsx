@@ -5,7 +5,7 @@ import Gallerysection from '../components/sections/Gallerysection'
 const Gallerypage = () => {
   return (
     <>
-        <Herosection2 title={"Gallery"}/>
+        <Herosection2 title={"Gallery"} backgroundImage='../gallerybg.jpeg'/>
         <Gallerysection/>
     </>
   )

@@ -2,22 +2,20 @@ import React from 'react'
 import Herosection2 from '../components/sections/Herosection2'
 import Blogcard from '../components/cards/Blogcard'
 import Newslettersection from '../components/sections/Newslettersection'
+import blogs from '../assets/json/blogs.json'
 
 const Blogpage = () => {
   return (
     <>
-        <Herosection2 title={"Blogs"}/>
+        <Herosection2 title={"Blogs"} backgroundImage='gallery-3.jpg'/>
         <section className="ftco-section bg-light">
       <div className="container">
         <div className="row d-flex">
-          <Blogcard/>          	
-          <Blogcard/>          	
-          <Blogcard/>          	
-          <Blogcard/>          	
-          <Blogcard/>          	
-          <Blogcard/>          	
+        {blogs.map((item,index)=>(
+            <Blogcard key={index} img={item.images[0]} title={item.title} id={item.id} tagline={item.tagline}/>  
+          ))}        	
         </div>
-        <div className="row mt-5">
+        {/* <div className="row mt-5">
           <div className="col text-center">
             <div className="block-27">
               <ul>
@@ -31,7 +29,7 @@ const Blogpage = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
     <Newslettersection/>

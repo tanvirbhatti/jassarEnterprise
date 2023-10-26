@@ -72,9 +72,9 @@ Message: ${message}`;
                   <div className="contact-wrap w-100 p-md-5 p-4">
                     <h3 className="mb-4">Contact Us</h3>
                     <div id="form-message-warning" className="mb-4"></div>
-                    <div id="form-message-success" className="mb-4">
+                    {/* <div id="form-message-success" className="mb-4">
                       Your message was sent, thank you!
-                    </div>
+                    </div> */}
                     <form onSubmit={handleSubmit} className="contactForm">
                       <div className="row">
                         <div className="col-md-6">
@@ -112,7 +112,7 @@ Message: ${message}`;
                   </div>
                 </div>
                 <div className="col-md-5 d-flex align-items-stretch">
-                  <div className="info-wrap w-100 p-5 img" style={{ backgroundImage: 'url(images/about.jpg)' }}>
+                  <div className="info-wrap w-100 p-5 img" style={{ backgroundImage: 'url(contact.jpeg)' }}>
                   </div>
                 </div>
               </div>

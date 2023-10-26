@@ -6,7 +6,7 @@ import TeamSection from '../components/sections/TeamSection'
 const Servicespage = () => {
   return (
     <>
-        <Herosection2 title={"Services"}/>
+        <Herosection2 title={"Services"} backgroundImage='../homeImg.jpeg'/>
         <Servicesection/>
         {/* <TeamSection/> */}
     </>

@@ -9,7 +9,6 @@ import Contactpage from './Contactpage'
 import Servicespage from './Servicespage'
 import Gallerypage from './Gallerypage'
 import Blogsingle from './Blogsingle'
-import SingleServiceSection from '../components/sections/SingleServiceSection'
 import Servicesingle from './Servicesingle'
 
 const Layout = () => {
@@ -23,8 +22,9 @@ const Layout = () => {
         <Route path='/contact' Component={Contactpage} />
         <Route path='/gallery' Component={Gallerypage} />
         <Route path='/services' Component={Servicespage} />
-        <Route path='/blogsingle' Component={Blogsingle} />
+        <Route path='/blogsingle/:id' Component={Blogsingle} />
         <Route path='/singleservice/:id' Component={Servicesingle} />
+        <Route path='/services/singleservice/:id' Component={Servicesingle} />
       </Routes>
       <Footer />
     </BrowserRouter>

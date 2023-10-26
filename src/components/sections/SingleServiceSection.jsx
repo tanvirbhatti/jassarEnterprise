@@ -22,7 +22,7 @@ const SingleServiceSection = () => {
                   <div
                     className="img d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end"
                     style={{
-                      backgroundImage: `url(../images/${s.image})`,
+                      backgroundImage: `url(/../images/${s.image})`,
                       borderRadius: '30px',
                     }}
                   ></div>
@@ -63,7 +63,7 @@ const SingleServiceSection = () => {
                   <div
                     className="img d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end"
                     style={{
-                      backgroundImage: `url(../images/${s.image})`,
+                      backgroundImage: `url(/../images/${s.image})`,
                       borderRadius: '30px',
                     }}
                   ></div>

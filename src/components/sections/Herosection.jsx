@@ -26,7 +26,7 @@ const Herosection = () => {
 
     const slides = [
         {
-            backgroundImage: '/images/snow_removal.avif',
+            backgroundImage: '/images/snowremoval/snow_removal.avif',
             text: {
                 subheading: 'Welcome to Jassar Enterprise',
                 heading: 'Your Snow Removal Experts',
@@ -38,7 +38,7 @@ const Herosection = () => {
             },
         },
         {
-            backgroundImage: '/images/landscaping.jpeg',
+            backgroundImage: '/images/landscaping/landscaping.jpeg',
             text: {
                 subheading: 'Welcome to Jassar Enterprise',
                 heading: 'Transforming Landscapes',
@@ -50,7 +50,7 @@ const Herosection = () => {
             },
         },
         {
-            backgroundImage: '/images/construction.avif',
+            backgroundImage: '/images/construction/construction.avif',
             text: {
                 subheading: 'Welcome to Jassar Enterprise',
                 heading: 'Building Your Dreams',

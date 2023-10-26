@@ -1,38 +1,38 @@
 [
     {
-        "name":"Manvir bhatii",
-        "position":"House owner",
-        "review":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
-        "image":"person_1.jpg"
+        "name": "Manvir Bhatii",
+        "position": "Landscaping Client",
+        "review": "Jassar Enterprise transformed my outdoor space into a beautiful and functional area. I'm extremely satisfied with their landscaping services.",
+        "image": "person_1.jpg"
     },
     {
-        "name":"Tanivr bhatii",
-        "position":"House owner",
-        "review":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
-        "image":"person_2.jpg"
+        "name": "Tanivr Bhatii",
+        "position": "Construction Client",
+        "review": "Jassar Enterprise's construction work was outstanding. They built a strong foundation for my project, ensuring stability and longevity.",
+        "image": "person_2.jpg"
     },
     {
-        "name":"Jassar",
-        "position":"House owner",
-        "review":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
-        "image":"person_3.jpg"
+        "name": "Jassar",
+        "position": "Snow Removal Client",
+        "review": "Jassar Enterprise's snow removal services are top-notch. They keep my property safe and accessible during the winter season.",
+        "image": "person_3.jpg"
     },
     {
-        "name":"Gurveer",
-        "position":"House owner",
-        "review":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
-        "image":"person_4.jpg"
+        "name": "Gurveer",
+        "position": "Landscaping Client",
+        "review": "I'm delighted with Jassar Enterprise's landscaping work. They created a stunning landscape that completely transformed my outdoor space.",
+        "image": "person_4.jpg"
     },
     {
-        "name":"Jagga",
-        "position":"House owner",
-        "review":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
-        "image":"person_5.jpg"
-    },  
+        "name": "Jagga",
+        "position": "Construction Client",
+        "review": "The construction services provided by Jassar Enterprise were exceptional. Their strong foundation and building work met my expectations.",
+        "image": "person_5.jpg"
+    },
     {
-        "name":"Gurjeevan",
-        "position":"House owner",
-        "review":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
-        "image":"person_6.jpg"
+        "name": "Gurjeevan",
+        "position": "Snow Removal Client",
+        "review": "During the winter, Jassar Enterprise ensures my property's safety with their efficient snow removal services. Highly recommended!",
+        "image": "person_6.jpg"
     }
 ]

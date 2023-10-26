@@ -2,24 +2,24 @@
   {
       "id": "1",
       "title": "Snow Removal",
-      "backgroundImage":"snow_removal.avif",
+      "backgroundImage":"snowremoval/snow_removal.avif",
       "data": [
           {
               "heading": "Snow Removal Services",
               "tagline": "Keeping Your Paths and Driveways Clear",
-              "image": "snow1.jpeg",
+              "image": "snowremoval/snow1.jpeg",
               "text": "Our professional snow removal services ensure that your paths and driveways are consistently clear, allowing you to navigate safely during the winter months. We understand the importance of a snow-free environment, and our team is dedicated to keeping your outdoor spaces accessible and secure. With our efficient snow removal techniques, you can trust us to eliminate the hassles of winter weather, ensuring that you can focus on what truly matters."
           },
           {
               "heading": "Expert Snow Clearing",
               "tagline": "Winter Safety Made Simple",
-              "image": "snow2.jpeg",
+              "image": "snowremoval/snow2.jpeg",
               "text": "Jassar Enterprise is your trusted partner for snow removal in Vancouver, BC. With our expert team and top-of-the-line equipment, we make winter safety simple. Our services extend to both residential and commercial properties, ensuring that snow and ice are no match for our efficiency. Don't let snow and ice keep you indoors; choose our snow removal services and experience the freedom to move about your property safely and stress-free."
           },
           {
               "heading": "Snow-Free Peace of Mind",
               "tagline": "Let Us Handle Winter for You",
-              "image": "snow3.jpeg",
+              "image": "snowremoval/snow3.jpeg",
               "text": "At Jassar Enterprise, we deliver more than just snow removal; we provide peace of mind. With our dedication to exceptional service and prompt snow clearing, you can trust us to manage winter's challenges. Our reliable and friendly team is here to ensure that your property remains snow-free, allowing you to enjoy the season without worrying about safety hazards. Winter doesn't stand a chance when you have us on your side. Choose our snow removal services for a winter with peace of mind."
           }
       ]
@@ -27,25 +27,25 @@
   {
       "id": "2",
       "title": "Landscaping",
-      "backgroundImage":"landscaping.jpeg",
+      "backgroundImage":"landscaping/landscaping.jpeg",
       "description": "Transforming landscapes to create beautiful outdoor spaces for you.",
       "data": [
           {
               "heading": "Landscaping Services",
               "tagline": "Creating Beautiful Outdoor Spaces",
-              "image": "landscape1.jpeg",              
+              "image": "landscaping/landscape1.jpeg",              
               "text": "Our landscaping services are designed to transform your outdoor spaces into beautiful and functional areas. Whether you dream of a lush garden, a serene backyard, or an inviting front yard, we have the expertise and creativity to make it happen. Jassar Enterprise is committed to enhancing your property's aesthetics and value with our landscaping solutions."
           },
           {
               "heading": "Professional Landscape Design",
               "tagline": "Tailored to Your Preferences",
-              "image": "landscape2.jpeg",
+              "image": "landscaping/landscape2.jpeg",
               "text": "Our professional landscape design services are tailored to your preferences and needs. We work closely with you to understand your vision, and our skilled designers turn that vision into a reality. From planning to implementation, we ensure that your outdoor space reflects your unique style and preferences."
           },
           {
               "heading": "Maintenance and Enhancement",
               "tagline": "Keeping Your Landscaping Pristine",
-              "image": "landscape3.jpeg",
+              "image": "landscaping/landscape3.jpeg",
               "text": "At Jassar Enterprise, we don't just create beautiful landscapes; we also offer maintenance and enhancement services to keep your outdoor space pristine. From regular maintenance to seasonal changes, we provide the care and attention your landscaping deserves, allowing you to enjoy a beautiful outdoor environment year-round."
           }
       ]
@@ -53,25 +53,25 @@
   {
       "id": "3",
       "title": "Construction",
-      "backgroundImage":"construction.avif",
+      "backgroundImage":"construction/construction.avif",
       "description": "Quality construction services to build your dreams into reality.",
       "data": [
           {
               "heading": "Construction Services",
               "tagline": "Turning Dreams into Reality",
-              "image": "about.jpg",
+              "image": "construction/blocks.jpeg",
               "text": "Our construction services are dedicated to turning your dreams into reality. Whether you have architectural designs, renovation projects, or construction plans, Jassar Enterprise has the expertise and experience to deliver quality results. We take pride in our commitment to excellence, ensuring that your construction projects meet and exceed your expectations."
           },
           {
               "heading": "Renovations and Remodeling",
               "tagline": "Enhancing Your Living Spaces",
-              "image": "about.jpg",     
+              "image": "construction/construction2.jpeg",     
               "text": "If you're looking to enhance your living spaces through renovations or remodeling, we're here to help. Our team specializes in making your home more comfortable, functional, and appealing. From kitchen renovations to bathroom remodeling, we ensure that your home reflects your lifestyle and preferences."
           },
           {
               "heading": "Commercial Construction",
               "tagline": "Creating Commercial Spaces That Impress",
-              "image": "about.jpg",
+              "image": "construction/construction3.jpeg",
               "text": "Jassar Enterprise also offers commercial construction services to create spaces that impress your clients and customers. Whether it's a new office, retail store, or commercial facility, our construction expertise guarantees that your business space stands out for all the right reasons."
           }
       ]

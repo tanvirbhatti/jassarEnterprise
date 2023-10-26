@@ -6,7 +6,7 @@ import Newslettersection from '../components/sections/Newslettersection'
 const Contactpage = () => {
   return (
     <>
-        <Herosection2 title={"Contact"}/>
+        <Herosection2 title={"Contact"} backgroundImage='gallery-4.jpg'/>
         <ContactsectionLarge/>
         <Newslettersection/>
     </>
