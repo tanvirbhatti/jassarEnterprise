@@ -1,6 +1,22 @@
 import React from 'react';
 
 const ContactsectionLarge = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const subject = document.getElementById('subject').value;
+    const message = document.getElementById('message').value;
+
+    const formattedBody = `Name: ${name}
+Email: ${email}
+Subject: ${subject}
+Message: ${message}`;
+
+    const mailtoLink = `mailto:info@jassarlandscaping.ca?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(formattedBody)}`;
+
+    window.location.href = mailtoLink;
+  };
   return (
     <section className="ftco-section bg-light">
       <div className="container">
@@ -36,7 +52,7 @@ const ContactsectionLarge = () => {
                     <div className="text">
                       <p><span>Email:</span> <a href="mailto:info@jassarlandscaping.ca
 ">info@jassarlandscaping.ca
-</a></p>
+                      </a></p>
                     </div>
                   </div>
                 </div>
@@ -59,7 +75,7 @@ const ContactsectionLarge = () => {
                     <div id="form-message-success" className="mb-4">
                       Your message was sent, thank you!
                     </div>
-                    <form method="POST" id="contactForm" name="contactForm" className="contactForm">
+                    <form onSubmit={handleSubmit} className="contactForm">
                       <div className="row">
                         <div className="col-md-6">
                           <div className="form-group">

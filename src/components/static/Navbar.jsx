@@ -1,7 +1,27 @@
-import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import React, { useEffect } from 'react';
+import { Link, NavLink ,useLocation} from 'react-router-dom'
 
 const Navbar = () => {
+	const location = useLocation();
+
+	useEffect(() => {
+	  // Function to set the active class to the parent li element
+	  const setActiveLink = () => {
+		const links = document.querySelectorAll('.nav-item a');
+		links.forEach((link) => {
+		  const li = link.parentElement;
+		  if (location.pathname === link.getAttribute('href')) {
+			li.classList.add('active');
+		  } else {
+			li.classList.remove('active');
+		  }
+		});
+	  };
+  
+	  // Set the active link initially
+	  setActiveLink();
+	}, [location]);
+
 	return (
 		<>
 			<div className="container pt-2 px-0">
@@ -12,7 +32,7 @@ const Navbar = () => {
 								<Link className="navbar-brand" to="/"><img className="navLogo" src={"/final-logo.png"} alt='Jassar enterprise'></img></Link>
 							</div>
 							<div className="col-md-6 d-md-flex justify-content-end mb-md-0  align-items-center">
-								
+
 
 								<div className=" w-100 text-center ">
 									<div className="icon d-flex align-items-center justify-content-center">
@@ -53,35 +73,34 @@ const Navbar = () => {
 				</div>
 			</div>
 			<nav className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-                <div className="container-fluid">
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-                        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="fa fa-bars"></span> Menu
-                    </button>
-                    <div className="collapse navbar-collapse" id="ftco-nav">
-                        <ul className="navbar-nav m-auto">
-                            <li className="nav-item active">
-                                <NavLink exact to="/" className="nav-link">Home</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink to="/about" className="nav-link">About us</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink to="/services" className="nav-link">Services</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink to="/gallery" className="nav-link">Gallery</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink to="/blogs" className="nav-link">Blog</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink to="/contact" className="nav-link">Contact</NavLink>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+				<div className="container-fluid">
+					<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+						<span className="fa fa-bars"></span> Menu
+					</button>
+					<div className="collapse navbar-collapse" id="ftco-nav">
+						<ul className="navbar-nav m-auto">
+							<li className="nav-item">
+								<Link to="/" className="nav-link">Home</Link>
+							</li>
+							<li className="nav-item">
+								<Link to="/about" className="nav-link">About us</Link>
+							</li>
+							<li className="nav-item">
+								<Link to="/services" className="nav-link">Services</Link>
+							</li>
+							<li className="nav-item">
+								<Link to="/gallery" className="nav-link">Gallery</Link>
+							</li>
+							<li className="nav-item">
+								<Link to="/blogs" className="nav-link">Blog</Link>
+							</li>
+							<li className="nav-item">
+								<Link to="/contact" className="nav-link">Contact</Link>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
 		</>
 	)
 }

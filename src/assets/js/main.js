@@ -1,5 +1,16 @@
 import jQuery from 'jquery';
 
+
+// Get a reference to the "Home" link element
+const homeLink = document.getElementById('home-link');
+
+// Check if the current path matches the "Home" link's path
+if (window.location.pathname === '/') {
+  // Add your custom class when the link is active
+  homeLink.classList.add('custom-class');
+}
+
+
 (function($) {
 
 	"use strict";
