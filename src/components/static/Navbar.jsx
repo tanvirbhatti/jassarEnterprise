@@ -59,14 +59,12 @@ const Navbar = () => {
 					<div className="col-md-4 d-flex">
 						<div className="social-media d-flex align-items-center">
 							<p className="mb-0 d-flex">
-								<a href="#" className="d-flex align-items-center justify-content-center"><span
+								<a href="https://www.facebook.com/profile.php?id=100063689943465" target='_blank' className="d-flex align-items-center justify-content-center"><span
 									className="fa-brands fa-facebook"><i className="sr-only">Facebook</i></span></a>
-								<a href="#" className="d-flex align-items-center justify-content-center"><span
-									className="fa-brands fa-twitter"><i className="sr-only">Twitter</i></span></a>
-								<a href="#" className="d-flex align-items-center justify-content-center"><span
-									className="fa-brands fa-instagram"><i className="sr-only">Instagram</i></span></a>
-								<a href="#" className="d-flex align-items-center justify-content-center"><span
-									className="fa-brands fa-dribbble"><i className="sr-only">Dribbble</i></span></a>
+								<a href="https://www.instagram.com/jassar_ent_landscping/"  target='_blank' className="d-flex align-items-center justify-content-center"><span
+									className="fa-brands fa-instagram"><i className="sr-only">Twitter</i></span></a>
+								<a href="https://twitter.com/" target='_blank' className="d-flex align-items-center justify-content-center"><span
+									className="fa-brands fa-twitter"><i className="sr-only">Instagram</i></span></a>
 							</p>
 						</div>
 					</div>

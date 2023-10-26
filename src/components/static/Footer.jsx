@@ -14,13 +14,13 @@ const Footer = () => {
 							
 							<ul className="ftco-footer-social list-unstyled float-md-left w-100 justify-content-center  d-flex  float-lft mt-1">
 								<li className="">
-									<a href="#"><span className="fa-brands fa-facebook"></span></a>
+									<a href="https://www.facebook.com/profile.php?id=100063689943465" target='_blank'><span className="fa-brands fa-facebook"></span></a>
 								</li>
 								<li className="">
-									<a href="#"><span className="fa-brands fa-instagram"></span></a>
+									<a href="https://www.instagram.com/jassar_ent_landscping/"  target='_blank'><span className="fa-brands fa-instagram"></span></a>
 								</li>
 								<li className="">
-									<a href="#"><span className="fa-brands fa-twitter"></span></a>
+									<a href="https://twitter.com/" target='_blank'><span className="fa-brands fa-twitter"></span></a>
 								</li>
 							</ul>
 						</div>
