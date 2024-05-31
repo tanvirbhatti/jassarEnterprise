@@ -1,37 +1,47 @@
-import React, { useEffect } from 'react';
-import { Link, NavLink ,useLocation} from 'react-router-dom'
+import { useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom'
 
 const Navbar = () => {
 	const location = useLocation();
 
 	useEffect(() => {
-	  // Function to set the active class to the parent li element
-	  const setActiveLink = () => {
-		const links = document.querySelectorAll('.nav-item a');
-		links.forEach((link) => {
-		  const li = link.parentElement;
-		  if (location.pathname === link.getAttribute('href')) {
-			li.classList.add('active');
-		  } else {
-			li.classList.remove('active');
-		  }
-		});
-	  };
-  
-	  // Set the active link initially
-	  setActiveLink();
+		// Function to set the active class to the parent li element
+		const setActiveLink = () => {
+			const links = document.querySelectorAll('.nav-item a');
+			links.forEach((link) => {
+				const li = link.parentElement;
+				if (location.pathname === link.getAttribute('href')) {
+					li.classList.add('active');
+				} else {
+					li.classList.remove('active');
+				}
+			});
+		};
+
+		// Set the active link initially
+		setActiveLink();
 	}, [location]);
 
 	return (
 		<>
-			<div className="container pt-2 px-0">
+			<div className="container px-0">
 				<div className="row justify-content-between">
-					<div className="col-md-8 order-md-last">
+					<div className="col-md-12 order-md-last">
 						<div className="row ">
-							<div className="col-md-6 text-center">
+							<div className="social-media d-flex align-items-center col-md-5">
+								<p className="mb-0 d-flex">
+									<a href="https://www.facebook.com/profile.php?id=100063689943465" target='_blank' className="d-flex align-items-center justify-content-center mr-4"><span
+										className="fa-brands fa-facebook"><i className="sr-only">Facebook</i></span></a>
+									<a href="https://www.instagram.com/jassar_ent_landscping/" target='_blank' className="d-flex align-items-center justify-content-center mr-4"><span
+										className="fa-brands fa-instagram"><i className="sr-only">Twitter</i></span></a>
+									<a href="https://twitter.com/" target='_blank' className="d-flex align-items-center justify-content-center"><span
+										className="fa-brands fa-twitter"><i className="sr-only">Instagram</i></span></a>
+								</p>
+							</div>
+							<div className="col-md-2 text-center p-3">
 								<Link className="navbar-brand" to="/"><img className="navLogo" src={"/final-logo.png"} alt='Jassar enterprise'></img></Link>
 							</div>
-							<div className="col-md-6 d-md-flex justify-content-end mb-md-0  align-items-center">
+							<div className="col-md-5 d-md-flex justify-content-end mb-md-0  align-items-center">
 
 
 								<div className=" w-100 text-center ">
@@ -57,16 +67,7 @@ const Navbar = () => {
 						</div>
 					</div>
 					<div className="col-md-4 d-flex">
-						<div className="social-media d-flex align-items-center">
-							<p className="mb-0 d-flex">
-								<a href="https://www.facebook.com/profile.php?id=100063689943465" target='_blank' className="d-flex align-items-center justify-content-center"><span
-									className="fa-brands fa-facebook"><i className="sr-only">Facebook</i></span></a>
-								<a href="https://www.instagram.com/jassar_ent_landscping/"  target='_blank' className="d-flex align-items-center justify-content-center"><span
-									className="fa-brands fa-instagram"><i className="sr-only">Twitter</i></span></a>
-								<a href="https://twitter.com/" target='_blank' className="d-flex align-items-center justify-content-center"><span
-									className="fa-brands fa-twitter"><i className="sr-only">Instagram</i></span></a>
-							</p>
-						</div>
+
 					</div>
 				</div>
 			</div>

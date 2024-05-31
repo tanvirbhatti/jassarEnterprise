@@ -65,7 +65,7 @@ body {
 
 /* navbar logo */
 .navLogo{
-  width: 150px;
+  width: 100px;
 }
 .footerLogo{
   width: 280px;
@@ -3475,10 +3475,6 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
@@ -8136,12 +8132,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-toggler:focus {
       outline: none !important; }
 
-.navbar-brand {
-  color: #000000;
-  font-weight: 900;
-  font-size: 32px;
-  line-height: 1;
-  margin-bottom: 30px; }
+.navbar-brand {}
   .navbar-brand span {
     color: #4e9525; }
   .navbar-brand:hover, .navbar-brand:focus {
