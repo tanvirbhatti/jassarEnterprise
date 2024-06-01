@@ -7,9 +7,9 @@ const Footer = () => {
 			<div className="container ">
 				<div className="row ">
 					<div className="col-md-6 col-lg ">
-						<div className="ftco-footer-widget mb-4 align-align-items-end  d-flex flex-column ">
-							<div className="col-md-6 ">
-								<Link className="navbar-brand" to="/"><img className="footerLogo" src={"/light-logo.png"} alt='Jassar enterprise'></img></Link>
+						<div className="ftco-footer-widget mb-4 align-items-center justify-content-center d-flex flex-column ">
+							<div className="col-md-6 d-flex align-items-center w-100">
+								<Link className="navbar-brand w-100 d-flex align-items-center justify-content-center" to="/"><img className="footerLogo" src={"/final-logo.png"} alt='Jassar enterprise'></img></Link>
 							</div>
 							
 							<ul className="ftco-footer-social list-unstyled float-md-left w-100 justify-content-center  d-flex  float-lft mt-1">
