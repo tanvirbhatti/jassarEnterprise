@@ -53,7 +53,7 @@ const Navbar = () => {
 							</div>
 							<div className="col-md-5 col-3 d-flex justify-content-end mb-md-0 align-items-center">
 								<div className='d-none d-lg-flex'>
-									<div className="w-100 text-center">
+									<div className="w-100 text-center mr-3">
 										<div className="icon d-flex align-items-center justify-content-center">
 											<span className="fa fa-phone"></span>
 										</div>
