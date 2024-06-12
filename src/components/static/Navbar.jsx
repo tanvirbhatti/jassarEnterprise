@@ -28,10 +28,10 @@ const Navbar = () => {
 				<div className="row justify-content-between">
 					<div className="col-md-12 order-md-last">
 						<div className="row ">
-							<div className="social-media d-flex align-items-center col-md-5 col-3">
+							<div className="social-media d-flex align-items-center col-md-5 col-3 m-0">
 								<div className='d-lg-none align-items-center'>
 									<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-										<span className="fa fa-bars"></span>
+										<span className="fa fa-bars h2"></span>
 									</button>
 								</div>
 								<p className="mb-0 d-none d-lg-flex">
