@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import SingleServiceSection from '../components/sections/SingleServiceSection'
 import Herosection2 from '../components/sections/Herosection2'
 import Contact from '../components/sections/Contact'
@@ -7,6 +7,9 @@ import {  useParams } from 'react-router-dom';
 
 
 const Servicesingle = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const { id } = useParams();
   
   const service = data.find((item) => item.id === id);

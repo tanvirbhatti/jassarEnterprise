@@ -39,12 +39,12 @@ const TeamSection = () => {
                   <div
                     className="seasonal img d-flex align-items-center justify-content-center"
                     style={{
-                      backgroundImage: 'url(images/seasonal-1.jpg',
+                      backgroundImage: 'url(images/person.jpeg',
                       borderRadius: '30px',
                     }}
                   ></div>
                   <div className="text text-center px-4">
-                    <h3>Person 1</h3>
+                    <h3>Jassar</h3>
                     <p>Founder & CEO</p>
                   </div>
                 </div>
@@ -55,13 +55,13 @@ const TeamSection = () => {
                   <div
                     className="seasonal img d-flex align-items-center justify-content-center"
                     style={{
-                      backgroundImage: 'url(images/seasonal-1.jpg',
+                      backgroundImage: 'url(images/person.jpeg',
                       borderRadius: '30px',
                     }}
                   ></div>
                   <div className="text text-center px-4">
-                    <h3>Person 2</h3>
-                    <p>Founder & CEO</p>
+                    <h3>Sift sihdu</h3>
+                    <p>Team Member</p>
                   </div>
                 </div>
               </div>
@@ -71,13 +71,13 @@ const TeamSection = () => {
                   <div
                     className="seasonal img d-flex align-items-center justify-content-center"
                     style={{
-                      backgroundImage: 'url(images/seasonal-1.jpg',
+                      backgroundImage: 'url(images/person.jpeg',
                       borderRadius: '30px',
                     }}
                   ></div>
                   <div className="text text-center px-4">
-                    <h3>John Doe</h3>
-                    <p>Founder & CEO</p>
+                    <h3>Mike</h3>
+                    <p>Team Member</p>
                   </div>
                 </div>
               </div>
@@ -87,13 +87,13 @@ const TeamSection = () => {
                   <div
                     className="seasonal img d-flex align-items-center justify-content-center"
                     style={{
-                      backgroundImage: 'url(images/seasonal-1.jpg',
+                      backgroundImage: 'url(images/person.jpeg',
                       borderRadius: '30px',
                     }}
                   ></div>
                   <div className="text text-center px-4">
-                    <h3>John Doe</h3>
-                    <p>Founder & CEO</p>
+                    <h3>Alex</h3>
+                    <p>Tesm Member</p>
                   </div>
                 </div>
               </div>

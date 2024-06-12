@@ -12,6 +12,7 @@ import Blogsingle from './Blogsingle'
 import Servicesingle from './Servicesingle'
 
 const Layout = () => {
+  
   return (
     <BrowserRouter>
       <Navbar />

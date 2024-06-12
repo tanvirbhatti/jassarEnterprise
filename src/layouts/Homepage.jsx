@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Herosection from '../components/sections/Herosection'
 import Servicesection from '../components/sections/Servicesection'
 import Aboutsection from '../components/sections/Aboutsection'
@@ -11,6 +11,9 @@ import { Map } from '../components/sections/Map'
 import ClientsSection from '../components/sections/ClientsSection'
 
 const Homepage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       

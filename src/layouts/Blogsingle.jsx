@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Herosection2 from '../components/sections/Herosection2'
 import Newslettersection from '../components/sections/Newslettersection'
 import BlogsingleSection from '../components/sections/BlogsingleSection'
@@ -6,6 +6,9 @@ import { useParams } from 'react-router-dom'
 import blogs from "../assets/json/blogs.json"
 
 const Blogsingle = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   let{id} = useParams();
   if(!id){
     id ="1"

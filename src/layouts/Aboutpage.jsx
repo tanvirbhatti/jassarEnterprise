@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Aboutsection from '../components/sections/Aboutsection';
 import Contact from '../components/sections/Contact';
 import Testimonials from '../components/sections/Testimonials';
@@ -8,6 +8,9 @@ import TeamSection from '../components/sections/TeamSection';
 import AboutSection2 from '../components/sections/AboutSection2';
 
 const Aboutpage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <Herosection2 title={"About us"} backgroundImage={"aboutbg.jpeg"}/>
