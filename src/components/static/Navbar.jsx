@@ -63,8 +63,8 @@ const Navbar = () => {
                   <a href="https://www.instagram.com/jassar__ent?igsh=MWNtOWhlNnZqMGFlNQ%3D%3D" target='_blank' className="d-flex align-items-center justify-content-center mr-4">
                     <span className="fab fa-instagram"><i className="sr-only">Instagram</i></span>
                   </a>
-                  <a href="https://twitter.com/" target='_blank' className="d-flex align-items-center justify-content-center">
-                    <span className="fab fa-tiktok"><i className="sr-only">Twitter</i></span>
+                  <a href="https://www.tiktok.com/@jassar_enterprisesltd?_t=8o4dbGtcOVm&_r=1" target='_blank' className="d-flex align-items-center justify-content-center">
+                    <span className="fab fa-tiktok"><i className="sr-only">Tiktok</i></span>
                   </a>
                 </p>
               </div>
