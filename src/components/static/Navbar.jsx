@@ -60,11 +60,11 @@ const Navbar = () => {
                   <a href="https://www.facebook.com/profile.php?id=100063689943465" target='_blank' className="d-flex align-items-center justify-content-center mr-4">
                     <span className="fab fa-facebook"><i className="sr-only">Facebook</i></span>
                   </a>
-                  <a href="https://www.instagram.com/jassar_ent_landscping/" target='_blank' className="d-flex align-items-center justify-content-center mr-4">
+                  <a href="https://www.instagram.com/jassar__ent?igsh=MWNtOWhlNnZqMGFlNQ%3D%3D" target='_blank' className="d-flex align-items-center justify-content-center mr-4">
                     <span className="fab fa-instagram"><i className="sr-only">Instagram</i></span>
                   </a>
                   <a href="https://twitter.com/" target='_blank' className="d-flex align-items-center justify-content-center">
-                    <span className="fab fa-twitter"><i className="sr-only">Twitter</i></span>
+                    <span className="fab fa-tiktok"><i className="sr-only">Twitter</i></span>
                   </a>
                 </p>
               </div>
@@ -88,7 +88,7 @@ const Navbar = () => {
                       <span className="fas fa-paper-plane"></span>
                     </div>
                     <div className="text">
-                      <p><a href="mailto:info@yoursite.com">info@jassarlandscaping.ca</a></p>
+                      <p><a href="mailto:info@yoursite.com">Jassarenterprises@gmail.com</a></p>
                     </div>
                   </div>
                 </div>

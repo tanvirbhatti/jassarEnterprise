@@ -55,7 +55,7 @@ const Footer = () => {
 									</li>
 									<li>
 										<a href="#"><span className="icon fa fa-paper-plane"></span><span
-											className="text">info@jassarlandscaping.ca</span></a>
+											className="text">Jassarenterprises@gmail.com</span></a>
 									</li>
 								</ul>
 							</div>

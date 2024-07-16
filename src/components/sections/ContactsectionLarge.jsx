@@ -50,8 +50,8 @@ Message: ${message}`;
                       <span className="fa fa-paper-plane"></span>
                     </div>
                     <div className="text">
-                      <p><span>Email:</span> <a href="mailto:info@jassarlandscaping.ca
-">info@jassarlandscaping.ca
+                      <p><span>Email:</span> <a href="mailto:Jassarenterprises@gmail.com
+">Jassarenterprises@gmail.com
                       </a></p>
                     </div>
                   </div>
@@ -62,7 +62,7 @@ Message: ${message}`;
                       <span className="fa fa-globe"></span>
                     </div>
                     <div className="text">
-                      <p><span>Website</span> <a href="https://www.jassarlandscaping.ca/">jassarlandscaping.ca</a></p>
+                      <p><span>Website</span> <a href="https://www.Jassarenterprises.ca/">Jassarenterprises.ca</a></p>
                     </div>
                   </div>
                 </div>
